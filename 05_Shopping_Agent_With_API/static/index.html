@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Agent</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <img src="https://images.unsplash.com/photo-1663124178667-28b3776d7c15?q=80&w=1460&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Bot Avatar" class="bot-avatar">
+                <h1>Shopping Agent</h1>
+            </div>
+            <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+        </header>
+        <div class="chat-container" id="chat-container">
+            <div class="message bot">
+                Welcome to the Shopping Assistant! Ask about products.
+            </div>
+        </div>
+        <button id="scroll-to-bottom" class="scroll-button" title="Scroll to bottom">↓</button>
+        <div class="input-container">
+            <textarea id="user-input" placeholder="Type your message..." rows="1"></textarea>
+            <button id="send-button">Send</button>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>

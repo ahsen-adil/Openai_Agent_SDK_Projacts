@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+openai-agents
+aiohttp
+python-dotenv
+fuzzywuzzy
+python-Levenshtein
+gunicorn
